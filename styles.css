@@ -70,15 +70,15 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid pink;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: purple;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -86,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: pink;
 }
 .card {
   margin: 30px;
@@ -101,6 +101,12 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff99ff;
 }
+
+.card h2 {
+  color: purple;
+
+}
+
 
 ul.skills {
   padding: 0;
@@ -118,6 +124,20 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+
+.games li {
+  border-radius: 6px;
+  display: flex;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.games li:nth-child(odd) {
+  background: #8903ff;
 }
 
 .skills a {
