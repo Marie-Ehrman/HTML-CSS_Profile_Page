@@ -64,9 +64,25 @@ a:hover {
   color: var(--medBlue);
 }
 
-header {
+.header-index {
   text-align: center;
-  background: url('images/MtHood.jpg') no-repeat top center ;
+  background: url('images/MtHood4.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.header-experience {
+  text-align: center;
+  background: url('images/MtHood3.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.header-about {
+  text-align: center;
+  background: url('images/MtHood4.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
