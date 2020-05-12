@@ -1,4 +1,13 @@
 /* Global Layout Set-up */
+:root {
+  --green: #687864;
+  --darkBlue: #31708E;
+  --medBlue: #5085A5;
+  --ltBlue: #8FC1E3;
+  --ltGrey: #F7F9FB;
+}
+
+
 * { 
   box-sizing: border-box;
 }
@@ -15,7 +24,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color:var(--ltGrey);
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +34,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: var(--green);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +52,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: var(--ltGrey);
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,59 +61,61 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: var(--medBlue);
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/MtHood.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid pink;
+  border: 3px solid var(--green);
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: purple;
+  background-color: var(--ltGrey);
+  color: var(--green);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: pink;
+  background-color: var(--darkBlue);
+  color: var(--ltGrey);
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: var(--ltGrey);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: var(--ltBlue);
 }
 
 .card h2 {
-  color: purple;
-
+  color: var(--green);
 }
 
 
@@ -116,28 +127,28 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: var(--darkBlue);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: var(--ltBlue);
 }
 
 
 .games li {
   border-radius: 6px;
   display: flex;
-  background: #ff9904;
+  background: var(--darkBlue);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .games li:nth-child(odd) {
-  background: #8903ff;
+  background: var(--ltBlue);
 }
 
 .skills a {
