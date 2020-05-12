@@ -6,6 +6,7 @@ This is a simple personal profile page and serves as an introduction to HTML and
 
 
 ## For Exceeds:
-- Added the Experience Page
-- Updated the border color of profile pic to pink and changed transition to 360deg
-- 
+- Added the Experience & Hobbies Page
+- Updated the border color of profile pic and changed transition to 360deg
+- Reinvent Color Palette for pages
+- Add second background photo for experience page
