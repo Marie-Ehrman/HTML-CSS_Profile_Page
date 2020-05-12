@@ -1,12 +1,4 @@
 /* Global Layout Set-up */
-:root {
-  --green: #687864;
-  --darkBlue: #31708E;
-  --medBlue: #5085A5;
-  --ltBlue: #8FC1E3;
-  --ltGrey: #F7F9FB;
-}
-
 
 * { 
   box-sizing: border-box;
@@ -24,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color:var(--ltGrey);
+  color: #F7F9FB;
 }
 a:hover {
   color: #6633ff;
@@ -34,7 +26,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: var(--green);
+  background: #687864;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -52,7 +44,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: var(--ltGrey);
+    color: #F7F9FB;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -61,7 +53,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: var(--medBlue);
+  color: #5085A5;
 }
 
 .header-index {
@@ -98,40 +90,40 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid var(--green);
+  border: 3px solid #687864;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: var(--ltGrey);
-  color: var(--green);
+  background-color: #F7F9FB;
+  color: #687864;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: var(--darkBlue);
-  color: var(--ltGrey);
+  background-color: #31708E;
+  color: #F7F9FB;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: var(--ltGrey);
+  background: #F7F9FB;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: var(--ltBlue);
+  border-color: #8FC1E3;
 }
 
 .card h2 {
-  color: var(--green);
+  color: #687864;
 }
 
 
@@ -143,28 +135,28 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: var(--darkBlue);
+  background: #31708E;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: var(--ltBlue);
+  background: #8FC1E3;
 }
 
 
 .games li {
   border-radius: 6px;
   display: flex;
-  background: var(--darkBlue);
+  background: #31708E;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .games li:nth-child(odd) {
-  background: var(--ltBlue);
+  background: #8FC1E3;
 }
 
 .skills a {
